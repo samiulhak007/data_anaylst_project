@@ -1,0 +1,13 @@
+CREATE DATABASE SchoolDB;
+USE SchoolDB;
+SHOW databases;
+CREATE TABLE Student(StudentID INT,StudentName varchar(50),Age int,Department varchar(50));
+show tables;
+alter table Student ADD Email varchar(100);
+select * from Student;
+alter table Student rename to Student_Details;
+select * from Student_Details;
+show tables;
+truncate table Student_Details;
+Drop table Student_Details;
+Drop database schooldb;
